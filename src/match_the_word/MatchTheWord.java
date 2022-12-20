@@ -48,6 +48,7 @@ public class MatchTheWord {
         
         word = array_word.get(rnd);
         secret_word = HideWord(word);
+        System.out.println(word);
     }
     
     public void Check(String message, ClientHandler client_handler) throws IOException {
